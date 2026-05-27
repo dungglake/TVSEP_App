@@ -1,4 +1,4 @@
-# TVSEP Household Well-being Classifier (5-class)
+    # TVSEP Household Well-being Classifier (5-class)
 
 A Streamlit web application for predicting Vietnamese household subjective
 well-being using the TVSEP 2024 dataset.
@@ -14,6 +14,8 @@ tvsep_app/
 ├── Train5class.ipynb               # Training notebook (run first!)
 ├── data/
 │   └── TVSEP2024_HHQ_V3VN.dta     # Raw dataset
+├── streamlit/
+│   └── config.toml                 # Hide topbar
 └── pages/
     ├── 01_Overview.py              # Dataset summary
     ├── 02_Predict_Single.py        # Single household prediction form
