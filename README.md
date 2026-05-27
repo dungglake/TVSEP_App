@@ -14,7 +14,7 @@ tvsep_app/
 ├── Train5class.ipynb               # Training notebook (run first!)
 ├── data/
 │   └── TVSEP2024_HHQ_V3VN.dta     # Raw dataset
-├── streamlit/
+├── .streamlit/
 │   └── config.toml                 # Hide topbar
 └── pages/
     ├── 01_Overview.py              # Dataset summary
