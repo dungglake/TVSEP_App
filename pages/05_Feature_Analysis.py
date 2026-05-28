@@ -190,8 +190,11 @@ with tab3:
         center=0, vmin=-1, vmax=1, mask=mask,
         linewidths=0.5, linecolor="#0d1b2a",
         cbar_kws={"shrink": 0.7}, ax=ax,
-        annot_kws={"fontsize": 8, "color": "#cce4f7"},
+        annot_kws={"fontsize": 8, "color": "#000000"},
     )
+    cbar = ax.collections[0].colorbar
+    cbar.ax.tick_params(colors="#ffffff")
+    cbar.outline.set_edgecolor("#ffffff")
     ax.set_title(f"Correlation: top {n_corr} features + target",
                  color="#cce4f7", fontsize=13)
     ax.tick_params(colors="#8aafc8", labelsize=8)
