@@ -151,7 +151,7 @@ with col_right:
         st.markdown(
             f"<div style='display:flex; align-items:center; gap:8px; margin:4px 0;'>"
             f"<div style='width:14px; height:14px; border-radius:3px; background:{info['color']};'></div>"
-            f"<span style='font-size:12px; color:#cce4f7;'>{info['name']}</span>"
+            f"<span style='font-size:12px; color:#000000;'>{info['name']}</span>"
             f"<span style='margin-left:auto; font-size:12px; color:#8aafc8;'>{cnt:,}</span>"
             f"</div>",
             unsafe_allow_html=True
